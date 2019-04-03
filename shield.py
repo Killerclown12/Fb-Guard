@@ -52,10 +52,12 @@ class Active(generate_token):
 b = '\033[34m'
 w = '\033[0m'
 banner = f'''
+[•••••••••••••••••••••••••••••••••••]
 - creadby : Killer_Clown
 - Fb      : Yudha Wahyu Pratama
 - Ig      : yudhawahyu414
-               
+- Github  : github.com/Killerclown12
+[•••••••••••••••••••••••••••••••••••]
 '''
 par = optparse.OptionParser(
     usage = 'Cara: %prog --id arg --password arg --on/--off'
@@ -90,7 +92,6 @@ except Exception as e:
      print(e)
 except KeyboardInterrupt:
     exit()
-
 
 
 
