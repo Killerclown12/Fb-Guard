@@ -37,8 +37,6 @@ echo $purple'{Fb Guard}      _ _
              /  ,  ,  66\
       `======\   )_\\=\_o)=   
               `~~"~ `"   '
-
-echo "agar hp kentang tidak lag 🤓"| lolcat
 echo "Jika Ada kesalahaan dalam Tool hub saya 😎"
 sleep 2
 echo
@@ -67,19 +65,19 @@ sleep 2
 while $ulang;
 do
   clear #menu
-echo "[•••••••••••••••••••••••••••••••••••]"
-echo "- creadby : Killer_Clown"
-echo "- Fb      : Yudha Wahyu Pratama"
-echo "- Ig      : yudhawahyu414"
-echo "- Github  : github.com/Killerclown12"
-echo "[•••••••••••••••••••••••••••••••••••]"
+echo "[•••••••••••••••••••••••••••••••••••]"| lolcat
+echo "- creadby : Killer_Clown"| lolcat
+echo "- Fb      : Yudha Wahyu Pratama"| lolcat
+echo "- Ig      : yudhawahyu414"| lolcat
+echo "- Github  : github.com/Killerclown12"| lolcat
+echo "[•••••••••••••••••••••••••••••••••••]"| lolcat
 echo
-echo "[+]================================[+]"
-echo "1.Mengaktifkan Photo Profil Guard"
-echo "2.Mengnonaktifkan Photo Profil Gurd "
-echo "3.Untuk Melihat Caranya "
-echo "0.Exit"
-echo "[+]================================[+]"
+echo "[+]================================[+]"| lolcat
+echo "1.Mengaktifkan Photo Profil Guard"| lolcat
+echo "2.Mengnonaktifkan Photo Profil Guard "| lolcat
+echo "3.Untuk Melihat Caranya "| lolcat
+echo "0.Exit"| lolcat
+echo "[+]================================[+]"| lolcat
   echo -n $cyan'Pilih'$reset'√'$red':'$reset
   read pil;
   if [ $pil = '1' ] || [ $pil = '01' ]; 
@@ -87,10 +85,10 @@ echo "[+]================================[+]"
       clear 
       echo $red'['$blue'!'$red']''Kamu Telah Memilih Nomer 1'$reset
       sleep 2
-      echo -e "${y} {1} Masukkan ID${endc}:"
+      echo  "${y} {1} Masukkan ID${endc}:"| lolcat
       read ID
       clear
-      echo -e "${y} {1} Masukkan pass${endc}:"
+      echo "${y} {1} Masukkan pass${endc}:"| lolcat
       read pass
       python shield.py --id $ID --password $pass --on
       
@@ -101,10 +99,10 @@ then
  clear
 echo $red'['$blue'!'$red']''Kamu Telah Memilih Nomer 2'
 sleep 2
-echo -e "${y} {1} Masukkan ID${endc}:"
+echo  $blue"${y} {1} Masukkan ID${endc}:"
    read ID
    clear
-   echo -e "${y} {1} Masukkan pass${endc}:"
+   echo  $red"${y} {1} Masukkan pass${endc}:"
    read pass
 python shield.py --id $ID --password $pass --off
 
@@ -114,13 +112,13 @@ then
     clear
    echo $red'['$blue'!'$red']''Kamu Telah Memilih Nomer 3'
    sleep 2
-   echo -e "${y} {1} Masukkan ID${endc}:"
-   read ID
-   clear
-   echo -e "${y} {1} Masukkan pass${endc}:"
-   read pass
-   python shield.py --id $ID --password $pass --help
-   
+   echo "Pertama Masukan Email/Nomer Telepon"| lolcat
+   sleep 0.2
+   echo "Kedua Masukan Password Kalian"| lolcat
+   sleep 0.2
+   echo "Selesai dan tunggu "| lolcat
+   sleep 0.1
+   echo "note :Mengisi Id Dan Password dengan Benar"| lolcat
     elif [ $pil = '00' ] || [ $pil = '0' ];
     then
     clear
@@ -130,8 +128,9 @@ then
     if [ $pil1 = 'Y' ] || [ $pil1 = 'y' ];
     then
     clear
-    echo "buru buru amat"
+    echo "buru buru amat"| lolcat
     sleep 02
+    clear
     echo $green'Goood Bye.........!'
     sleep 2
     clear
